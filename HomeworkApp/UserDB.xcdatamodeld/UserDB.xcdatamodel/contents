@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="Lesson" representedClassName="LessonDataObject" syncable="YES">
+        <attribute name="lID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lNotice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lRefreshtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lTeacher" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="UserDataObject" syncable="YES">
+        <attribute name="lasttime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="session" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usernumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Work" representedClassName="WorkDataObject" syncable="YES">
+        <attribute name="wDeadline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wLesson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wSelfRemark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wSelfScore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wSubDocument" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wSubProcess" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wSubState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wSubTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Lesson" positionX="-333" positionY="63" width="128" height="120"/>
+        <element name="User" positionX="-83" positionY="32" width="128" height="90"/>
+        <element name="Work" positionX="25" positionY="270" width="128" height="210"/>
+    </elements>
+</model>
